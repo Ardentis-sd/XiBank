@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: XiBank_V1.0.PcbDoc   08.09.2022  9:49:59
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : XiBank_V1.0-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : XiBank_V1.0-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : XiBank_V1.0-SlotHoles-Plated.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             145       PTH        0.00mm (0.00inch)
+T2      0.5mm (20mil)                                             Slot              4         PTH        0.00mm (0.00inch)
+T3      0.8mm (31mil)                                             Slot              8         PTH        0.00mm (0.00inch)
+T4      0.9mm (35mil)                                             Round             2         PTH        0.00mm (0.00inch)
+T5      2mm (79mil)                                               Round             4         NPTH       0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              163
+
+Total Processing Time (hh:mm:ss) : 00:00:00
