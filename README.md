@@ -21,5 +21,10 @@ XiBank is a controller board that designed to fit into Mi Power Bank enclosure a
  - The smallest component case is 0603.
  - Low components count.
 
+### Known Issue:
+ - IP5328P for some reason don't like the Baseus "BS-EU905" quick charger. In  my case when battery become charged to 100% there is no suspend 
+event and Baseus charger cyclycaly reconnects to IP5328P, thus 4th LED always blinkink and there is no chance to understand that battery is full.
+Moreover this situation damaging the internal high-side MOSFET of IP5328P's synchronous switch and "VSYS" andd "LX" pins become shorted.
+
 ### Video:
 [![Second Life For Xiaomi Power Bank](https://img.youtube.com/vi/kC_nnOEB7hU/0.jpg)](https://youtu.be/kC_nnOEB7hU)
